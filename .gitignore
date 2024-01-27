@@ -2,3 +2,4 @@
 .ipynb_checkpoints/
 *.log
 temp/.
+memebot_container/small_model3.onnx
