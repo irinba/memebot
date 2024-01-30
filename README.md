@@ -2,13 +2,39 @@
 
 "мемебот" - это serverless телеграм-бот для семантического поиска мемов на русском языке. Доступен по ссылке: [https://t.me/find_text_meme_bot](https://t.me/find_text_meme_bot).
 
-### Как это работает
+## Как это работает
 
 Пользователи отправляют короткие текстовые запросы с описанием какой-либо жизненной ситуации. Запросы обрабатываются языковой моделью, после чего происходит поиск по базе мемов. Пользователь получает пять наиболее релевантных мемов с изображениями. Также предусмотрена возможность оценки результатов.
 
-## Пример работы бота
+<details>
+<summary>Пример работы бота (нажмите для раскрытия/свертывания)</summary>
+<br>
+<img src="screenshots/img1-3.png" alt="Пример работы бота">
+</details>
 
-*Скриншоты работы бота*
+<details>
+<summary>Пример работы бота (нажмите для раскрытия/свертывания)</summary>
+<br>
+<img src="screenshots/img2-2.png" alt="Пример работы бота">
+</details>
+
+<details>
+<summary>Пример работы бота (нажмите для раскрытия/свертывания)</summary>
+<br>
+<img src="screenshots/img3-2.png" alt="Пример работы бота">
+</details>
+
+<details>
+<summary>Пример работы бота (нажмите для раскрытия/свертывания)</summary>
+<br>
+<img src="screenshots/img4-2.png" alt="Пример работы бота">
+</details>
+
+<details>
+<summary>Пример работы бота (нажмите для раскрытия/свертывания)</summary>
+<br>
+<img src="screenshots/img5-2.png" alt="Пример работы бота">
+</details>
 
 ## Инфраструктура
 
@@ -42,7 +68,7 @@
 
 ## Используемая модель
 
-Модель [intfloat/multilingual-e5-small](https://huggingface.co/intfloat/multilingual-e5-small) была дообучена с использованием MultipleNegativesRankingLoss. Модель базируется на XLM-RoBERTa и представляет из себя bidirectional encoder, что делает ее подходящей для извлечения эмббеддингов предложений на русском языке.
+Модель [intfloat/multilingual-e5-small](https://huggingface.co/intfloat/multilingual-e5-small) была дообучена с использованием MultipleNegativesRankingLoss. Модель базируется на XLM-RoBERTa и представляет из себя bidirectional encoder, что делает ее подходящей для извлечения эмбеддингов предложений на русском языке.
 
 ## Как работает поиск
 
